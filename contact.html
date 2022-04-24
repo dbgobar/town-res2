@@ -7,7 +7,12 @@
     <link rel=“stylesheet” href=“style.css”>
 
     <style>
- 
+        h1{
+            justify-content: center;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
         p{
             font-family: 'majesti_bannerheavy';
             background: black; 
@@ -17,12 +22,13 @@
         .flex-container1{
             /* all body elements */
             display: flex;
-        justify-content: center;
+            justify-content: center;
         }
 
         #contact-container{
             display: flex;
             flex-direction: row;
+            justify-content: center;
         }
         #contact-box1{
             display: flex;
@@ -32,13 +38,15 @@
             display: flex;
 
         }
-        #box1-content{
+        #box1-content li{
             display: flex;
             flex-direction: column;
+            padding: 2%;
         }
-        #box2-content{
+        #box2-content li{
             display: flex;
             flex-direction: column;
+            padding: 2%;
         }
 
         .flex-container2{
@@ -119,22 +127,25 @@
         </div>
         <br> <br> 
     </div>
-    <h1>CONTACT US</h1>
-    <div id="contact-container"> 
-        <div id="contact-box1">
-            <ul id="box1-content">
-                <li>CALL: (804)321-4545</li>
-                <li>EMAIL: townres2@townrestaurant.com </li>
-                <li>LOCATION: 451 N St., Baltimore, MD, 20822</li>
-            </ul>
-        </div>
-        <div id="contact-box2">
-            <ul id="box2-content">
-                <li>WEEKDAY HOURS: 4PM - 11pm </li>
-                <li>WEEKEND HOURS: 12pm - 2am </li>
-            </ul>
+    <div id="contact-page">
+        <h1>CONTACT US</h1>
+        <div id="contact-container"> 
+            <div id="contact-box1">
+                <ul id="box1-content">
+                    <li>CALL: (804)321-4545</li>
+                    <li>EMAIL: townres2@townrestaurant.com </li>
+                    <li>LOCATION: 451 N St., Baltimore, MD, 20822</li>
+                </ul>
+            </div>
+            <div id="contact-box2">
+                <ul id="box2-content">
+                    <li>WEEKDAY HOURS: 4PM - 11pm </li>
+                    <li>WEEKEND HOURS: 12pm - 2am </li>
+                </ul>
+            </div>
         </div>
     </div>
+
 </body>
 </html>
 
